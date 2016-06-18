@@ -1,0 +1,15 @@
+{% assign social = include.social %}
+
+{% case social.type %}
+
+{% when 'bandcamp'}
+<a href="{{ social.user }}.{{ social.type }}">
+
+{% else %}
+<a href="{{ social.type }}{{ social.user }}">
+{% endcase %}
+
+	<span class="icon icon-{{social.type}}">
+		<img src="/img/icons/icon-{{social.type}}.png">
+	</span>
+</a>

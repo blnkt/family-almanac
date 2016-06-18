@@ -6,16 +6,16 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Family Almanac
+email: thefamilyalmanac@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "/family-almanac" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
+  Family Almanac is happy to have you and we insist you take as much as you need. Our songs are catchy and sincere, and we’re sure we’ll have you singing along soon. Rich vocal harmonies are laid lovingly in a musical bed of electric guitars, old school keys, lap steel, drums and bass. When you’re here you’re family, and when you’re family you’re here to have a good time. 
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://familyalmanac.com" # the base hostname & protocol for your site
+# twitter_username: jekyllrb
 github_username:  jekyll
+facebook_pagename:  thefamilyalmanac
+bandcamp_pagename:  thefamilyalmanac
 
 # Build settings
 markdown: kramdown
