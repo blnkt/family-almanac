@@ -1,0 +1,7 @@
+<ul class="social-media-list">
+  {% for social in site.data.social %}
+    <li>
+      {% include social-link.html social=social %}
+    </li>
+  {% endfor %}
+</ul>

@@ -5,8 +5,12 @@
 {% when 'bandcamp'}
 <a href="{{ social.user }}.{{ social.type }}">
 
+{% when 'email'}
+<a href="mailto:{{ site.user }}">
+
 {% else %}
 <a href="{{ social.type }}{{ social.user }}">
+
 {% endcase %}
 
 	<span class="icon icon-{{social.type}}">

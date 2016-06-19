@@ -1,30 +1,27 @@
+{% if page.title != 'About' %}
 <footer class="site-footer">
 
   <div class="wrapper">
 
     <h2 class="footer-heading">{{ site.title }}</h2>
+    <h2 class="footer-heading">{{ page.title }}</h2>
 
     <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
+<!--       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li>{{ site.title }}</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul>
+      </div> -->
+
+      <div class="footer-col footer-col-1">
+        {% include social-link-list.html %}
       </div>
 
       <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% for social in site.data.social %}
-            <li>
-              {% include social-link.html social=social %}
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
         <p>{{ site.description }}</p>
       </div>
     </div>
   </div>
 </footer>
+{% endif %}

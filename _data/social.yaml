@@ -6,3 +6,7 @@
 - type: bandcamp
   user: thefamilyalmanac
   url: bandcamp.com/
+
+- type: email
+  user: thefamilyalmanac@gmail.com
+  url: ''

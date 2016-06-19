@@ -192,7 +192,15 @@ pre {
  * Icons
  */
 .icon {
+    display: inline-block;
+    width: 50px;
+    vertical-align: middle;
 
+    > img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
     > svg {
         display: inline-block;
         width: 16px;
@@ -202,5 +210,9 @@ pre {
         path {
             fill: $grey-color;
         }
+    }
+
+    footer & {
+        padding-bottom: 10px;
     }
 }
